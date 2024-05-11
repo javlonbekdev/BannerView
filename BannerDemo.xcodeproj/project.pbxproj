@@ -3,53 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F718245A244546ED0092F060 /* LoadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7182459244546ED0092F060 /* LoadImageView.swift */; };
-		F718245C244588D30092F060 /* BannerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F718245B244588D30092F060 /* BannerTool.swift */; };
+		48F0E7CE2BEF312500B8B6A3 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 48F0E7CD2BEF312500B8B6A3 /* SDWebImage */; };
+		48F0E7D02BEF312500B8B6A3 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 48F0E7CF2BEF312500B8B6A3 /* SDWebImageMapKit */; };
+		48F0E7D32BEF36AA00B8B6A3 /* CyclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0E7D12BEF36AA00B8B6A3 /* CyclesView.swift */; };
+		48F0E7D42BEF36AA00B8B6A3 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0E7D22BEF36AA00B8B6A3 /* PageControl.swift */; };
 		F7492CBD2443FBBA00276989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7492CBC2443FBBA00276989 /* AppDelegate.swift */; };
 		F7492CC12443FBBA00276989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7492CC02443FBBA00276989 /* ViewController.swift */; };
-		F7492CC42443FBBA00276989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7492CC22443FBBA00276989 /* Main.storyboard */; };
 		F7492CC62443FBBE00276989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7492CC52443FBBE00276989 /* Assets.xcassets */; };
 		F7492CC92443FBBE00276989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7492CC72443FBBE00276989 /* LaunchScreen.storyboard */; };
-		F7492CD22443FE2C00276989 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7492CD12443FE2C00276989 /* PageControl.swift */; };
-		F7492CD424445CA300276989 /* CyclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7492CD324445CA300276989 /* CyclesView.swift */; };
-		F74FA42E2452D02400423015 /* BannerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F74FA42D2452D02400423015 /* BannerView.bundle */; };
-		F74FA4312452ED4100423015 /* BannerBaseDataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FA4302452ED4100423015 /* BannerBaseDataInfo.swift */; };
 		F74FA4332452F3EF00423015 /* BannerViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FA4322452F3EF00423015 /* BannerViewFlowLayout.swift */; };
 		F74FA4352452F9F300423015 /* BannerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FA4342452F9F300423015 /* BannerViewCell.swift */; };
 		F74FA4372453015300423015 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FA4362453015300423015 /* BannerView.swift */; };
-		F76EB5B3246566E70039C5AC /* ZYPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76EB5AF246566E70039C5AC /* ZYPlayer.swift */; };
-		F76EB5B4246566E70039C5AC /* ZYPlayerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76EB5B0246566E70039C5AC /* ZYPlayerTool.swift */; };
-		F76EB5B5246566E70039C5AC /* PlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F76EB5B1246566E70039C5AC /* PlayerView.bundle */; };
-		F76EB5B6246566E70039C5AC /* ZYPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76EB5B2246566E70039C5AC /* ZYPlayerView.swift */; };
-		F76EB5B8246637440039C5AC /* BannerVideoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76EB5B7246637440039C5AC /* BannerVideoViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7182459244546ED0092F060 /* LoadImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageView.swift; sourceTree = "<group>"; };
-		F718245B244588D30092F060 /* BannerTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTool.swift; sourceTree = "<group>"; };
+		48F0E7D12BEF36AA00B8B6A3 /* CyclesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclesView.swift; sourceTree = "<group>"; };
+		48F0E7D22BEF36AA00B8B6A3 /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		F7492CB92443FBBA00276989 /* BannerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7492CBC2443FBBA00276989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7492CC02443FBBA00276989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7492CC32443FBBA00276989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7492CC52443FBBE00276989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7492CC82443FBBE00276989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7492CCA2443FBBE00276989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7492CD12443FE2C00276989 /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
-		F7492CD324445CA300276989 /* CyclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclesView.swift; sourceTree = "<group>"; };
-		F74FA42D2452D02400423015 /* BannerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BannerView.bundle; sourceTree = "<group>"; };
-		F74FA4302452ED4100423015 /* BannerBaseDataInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerBaseDataInfo.swift; sourceTree = "<group>"; };
 		F74FA4322452F3EF00423015 /* BannerViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewFlowLayout.swift; sourceTree = "<group>"; };
 		F74FA4342452F9F300423015 /* BannerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewCell.swift; sourceTree = "<group>"; };
 		F74FA4362453015300423015 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
-		F76EB5AF246566E70039C5AC /* ZYPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYPlayer.swift; sourceTree = "<group>"; };
-		F76EB5B0246566E70039C5AC /* ZYPlayerTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYPlayerTool.swift; sourceTree = "<group>"; };
-		F76EB5B1246566E70039C5AC /* PlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PlayerView.bundle; sourceTree = "<group>"; };
-		F76EB5B2246566E70039C5AC /* ZYPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYPlayerView.swift; sourceTree = "<group>"; };
-		F76EB5B7246637440039C5AC /* BannerVideoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerVideoViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,19 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F0E7D02BEF312500B8B6A3 /* SDWebImageMapKit in Frameworks */,
+				48F0E7CE2BEF312500B8B6A3 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F7182457244464210092F060 /* pageControl */ = {
+		48F0E7D52BEF37CF00B8B6A3 /* pageControl */ = {
 			isa = PBXGroup;
 			children = (
-				F7492CD12443FE2C00276989 /* PageControl.swift */,
-				F7492CD324445CA300276989 /* CyclesView.swift */,
+				48F0E7D22BEF36AA00B8B6A3 /* PageControl.swift */,
+				48F0E7D12BEF36AA00B8B6A3 /* CyclesView.swift */,
 			);
 			path = pageControl;
+			sourceTree = "<group>";
+		};
+		48F0E7D62BEF37D900B8B6A3 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F74FA4322452F3EF00423015 /* BannerViewFlowLayout.swift */,
+				F74FA4342452F9F300423015 /* BannerViewCell.swift */,
+			);
+			path = collectionView;
 			sourceTree = "<group>";
 		};
 		F7492CB02443FBBA00276989 = {
@@ -91,59 +84,16 @@
 		F7492CBB2443FBBA00276989 /* BannerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F7492CD02443FE2000276989 /* BannerView */,
 				F7492CBC2443FBBA00276989 /* AppDelegate.swift */,
 				F7492CC02443FBBA00276989 /* ViewController.swift */,
-				F7492CC22443FBBA00276989 /* Main.storyboard */,
+				F74FA4362453015300423015 /* BannerView.swift */,
+				48F0E7D62BEF37D900B8B6A3 /* collectionView */,
+				48F0E7D52BEF37CF00B8B6A3 /* pageControl */,
 				F7492CC52443FBBE00276989 /* Assets.xcassets */,
 				F7492CC72443FBBE00276989 /* LaunchScreen.storyboard */,
 				F7492CCA2443FBBE00276989 /* Info.plist */,
 			);
 			path = BannerDemo;
-			sourceTree = "<group>";
-		};
-		F7492CD02443FE2000276989 /* BannerView */ = {
-			isa = PBXGroup;
-			children = (
-				F76EB5AD246566E70039C5AC /* ZYPlayerView */,
-				F74FA42D2452D02400423015 /* BannerView.bundle */,
-				F74FA42F2452ED2600423015 /* Model */,
-				F7182457244464210092F060 /* pageControl */,
-				F7182459244546ED0092F060 /* LoadImageView.swift */,
-				F718245B244588D30092F060 /* BannerTool.swift */,
-				F74FA4362453015300423015 /* BannerView.swift */,
-				F74FA4322452F3EF00423015 /* BannerViewFlowLayout.swift */,
-				F74FA4342452F9F300423015 /* BannerViewCell.swift */,
-				F76EB5B7246637440039C5AC /* BannerVideoViewCell.swift */,
-			);
-			path = BannerView;
-			sourceTree = "<group>";
-		};
-		F74FA42F2452ED2600423015 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				F74FA4302452ED4100423015 /* BannerBaseDataInfo.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F76EB5AD246566E70039C5AC /* ZYPlayerView */ = {
-			isa = PBXGroup;
-			children = (
-				F76EB5AE246566E70039C5AC /* ZYPlayer */,
-				F76EB5B1246566E70039C5AC /* PlayerView.bundle */,
-				F76EB5B2246566E70039C5AC /* ZYPlayerView.swift */,
-			);
-			path = ZYPlayerView;
-			sourceTree = "<group>";
-		};
-		F76EB5AE246566E70039C5AC /* ZYPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				F76EB5AF246566E70039C5AC /* ZYPlayer.swift */,
-				F76EB5B0246566E70039C5AC /* ZYPlayerTool.swift */,
-			);
-			path = ZYPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +112,10 @@
 			dependencies = (
 			);
 			name = BannerDemo;
+			packageProductDependencies = (
+				48F0E7CD2BEF312500B8B6A3 /* SDWebImage */,
+				48F0E7CF2BEF312500B8B6A3 /* SDWebImageMapKit */,
+			);
 			productName = BannerDemo;
 			productReference = F7492CB92443FBBA00276989 /* BannerDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -190,6 +144,9 @@
 				Base,
 			);
 			mainGroup = F7492CB02443FBBA00276989;
+			packageReferences = (
+				48F0E7CC2BEF312500B8B6A3 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = F7492CBA2443FBBA00276989 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -206,9 +163,6 @@
 			files = (
 				F7492CC92443FBBE00276989 /* LaunchScreen.storyboard in Resources */,
 				F7492CC62443FBBE00276989 /* Assets.xcassets in Resources */,
-				F74FA42E2452D02400423015 /* BannerView.bundle in Resources */,
-				F76EB5B5246566E70039C5AC /* PlayerView.bundle in Resources */,
-				F7492CC42443FBBA00276989 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,17 +175,10 @@
 			files = (
 				F74FA4372453015300423015 /* BannerView.swift in Sources */,
 				F7492CC12443FBBA00276989 /* ViewController.swift in Sources */,
-				F718245C244588D30092F060 /* BannerTool.swift in Sources */,
-				F76EB5B4246566E70039C5AC /* ZYPlayerTool.swift in Sources */,
-				F7492CD424445CA300276989 /* CyclesView.swift in Sources */,
-				F74FA4312452ED4100423015 /* BannerBaseDataInfo.swift in Sources */,
-				F76EB5B8246637440039C5AC /* BannerVideoViewCell.swift in Sources */,
+				48F0E7D42BEF36AA00B8B6A3 /* PageControl.swift in Sources */,
+				48F0E7D32BEF36AA00B8B6A3 /* CyclesView.swift in Sources */,
 				F74FA4332452F3EF00423015 /* BannerViewFlowLayout.swift in Sources */,
 				F7492CBD2443FBBA00276989 /* AppDelegate.swift in Sources */,
-				F718245A244546ED0092F060 /* LoadImageView.swift in Sources */,
-				F7492CD22443FE2C00276989 /* PageControl.swift in Sources */,
-				F76EB5B3246566E70039C5AC /* ZYPlayer.swift in Sources */,
-				F76EB5B6246566E70039C5AC /* ZYPlayerView.swift in Sources */,
 				F74FA4352452F9F300423015 /* BannerViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,14 +186,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F7492CC22443FBBA00276989 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7492CC32443FBBA00276989 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7492CC72443FBBE00276989 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -379,7 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48J8UJB93W;
 				INFOPLIST_FILE = BannerDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,7 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48J8UJB93W;
 				INFOPLIST_FILE = BannerDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,6 +371,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48F0E7CC2BEF312500B8B6A3 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48F0E7CD2BEF312500B8B6A3 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48F0E7CC2BEF312500B8B6A3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		48F0E7CF2BEF312500B8B6A3 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48F0E7CC2BEF312500B8B6A3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7492CB12443FBBA00276989 /* Project object */;
 }

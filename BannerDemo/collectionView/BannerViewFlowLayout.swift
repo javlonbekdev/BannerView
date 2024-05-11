@@ -1,24 +1,20 @@
 //
 //  BannerViewFlowLayout.swift
 //  BannerDemo
-//
-//  Created by ༺ོ࿆强ོ࿆ ༻ on 2020/4/24.
-//  Copyright © 2020 ༺ོ࿆强ོ࿆ ༻. All rights reserved.
-//
 
 import UIKit
 
 class BannerViewFlowLayout: UICollectionViewFlowLayout {
-
-    /// 是否缩放
     public var isZoom:Bool = false
     
     override func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> Bool {
         return true
     }
+    
     override func prepare() {
         super.prepare()
     }
+    
     override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
         let tmps = super.layoutAttributesForElements(in: rect)
         if !self.isZoom {

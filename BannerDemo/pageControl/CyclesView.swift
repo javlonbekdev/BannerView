@@ -1,19 +1,14 @@
 //
 //  CyclesView.swift
 //  BannerDemo
-//
-//  Created by ༺ོ࿆强ོ࿆ ༻ on 2020/4/13.
-//  Copyright © 2020 ༺ོ࿆强ོ࿆ ༻. All rights reserved.
-//
 
 import UIKit
 
 
 class CyclesView: UIView {
     
-    /// 线条宽度
     public var borderWith:CGFloat = 2
-    /// 颜色
+    
     public var fullColor:UIColor = .lightGray
     
     override init(frame: CGRect) {

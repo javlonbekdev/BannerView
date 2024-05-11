@@ -1,53 +1,48 @@
 //
 //  PageControl.swift
 //  Company
-//
-//  Created by ༺ོ࿆强ོ࿆ ༻ on 2020/4/9.
-//  Copyright © 2020 RB. All rights reserved.
-//
 
 import UIKit
 
 enum PageControlStyle:Int {
-    case rectangle // 默认类型 长方形
-    case circle // 圆形
-    case hollow // 空心圆
-    case square // 正方形
-    case sizeDot // 大小点
+    case rectangle
+    case circle
+    case hollow
+    case square
+    case sizeDot
 }
 enum PageControlDirection:Int {
-    case leftDirection //  左边
-    case rightDirection // 右边
-    case centerDirection //默认类型 中间
+    case leftDirection
+    case rightDirection
+    case centerDirection
 }
 
 class LoopPageView: UIView {
     
-   /// 选中的色，默认白色
    public var selectColor:UIColor = .white
-   /// 背景色，默认灰色
+   
     public var normalColor:UIColor = .lightGray
-    /// 圆点位置 默认中心
+    
     public var directionType:PageControlDirection = .centerDirection
-    /// 间距
+    
     public var pageMargin:CGFloat  = 5
-    ///高度
+    
     public var height:CGFloat  = 5
-    /// 选中宽度
+    
     public var selectWidth:CGFloat  = 15
-    /// 数组
+    
     private var temps:Array = Array<UIView>()
-    /// page视图
+    
     private var backView:UIView = UIView()
-    /// 默认宽度
+    
     private var normalWidth:CGFloat  = 5
-    /// 总共点数
+    
      public var pages:Int = 0{
          didSet {
             setupAllPages(oldValue)
         }
      }
-    /// 当前点，默认0
+    
      public var currentPage:Int = 0{
          didSet {
            setupCurrentPage(oldValue)
@@ -134,33 +129,32 @@ class LoopPageView: UIView {
 
 class PageControl: UIPageControl {
 
-    /// 选中的色，默认白色
     public var selectColor:UIColor = .white
-    /// 背景色，默认灰色
+    
     public var normalColor:UIColor = .lightGray
-    /// 类别，默认长方形
+    
     public var pageType:PageControlStyle = .rectangle
-    /// 圆点位置 默认中心
+    
     public var directionType:PageControlDirection = .centerDirection
-    /// 间距
+    
     public var pageMargin:CGFloat  = 5
-    /// 点的高度 如果超过视图高度，默认默认为视图的高度
+    
     public var pointHeight:CGFloat  = 5
-    /// 选中宽度 类型sizeDot 起作用
+    
     public var selectWidth:CGFloat  = 15
-    /// 总共点数
+    
     public var totalPages:Int = 0 {
         didSet {
             setupTotolPages()
         }
     }
-    /// 当前点，默认0
+    
     public var currentIndex:Int = 0 {
         didSet {
             setupCurrentIndex(oldValue: oldValue)
         }
     }
-    /// 视图
+    
     lazy private var loopPageView:LoopPageView = { () -> LoopPageView in
         let tmpView = LoopPageView(frame: self.bounds)
         tmpView.normalColor = self.normalColor
@@ -171,7 +165,7 @@ class PageControl: UIPageControl {
         tmpView.selectWidth = self.selectWidth
         return tmpView
     }()
-    /// 视图
+    
    lazy private var pageView:UIView = { () -> UIView in
        let tmpView = UIView(frame: self.bounds)
        return tmpView
