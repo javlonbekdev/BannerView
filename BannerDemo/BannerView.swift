@@ -133,9 +133,11 @@ extension BannerView {
         self.timer = nil
     }
     private func setupTimer() {
-        let timer = Timer(timeInterval: TimeInterval(self.autoScrollTimeInterval), target: self, selector: #selector(timerInvoke), userInfo: nil, repeats: true)
-        RunLoop.current.add(timer, forMode: .common)
-        self.timer = timer
+        timer?.invalidate()
+        timer = Timer(timeInterval: TimeInterval(self.autoScrollTimeInterval), target: self, selector: #selector(timerInvoke), userInfo: nil, repeats: true)
+        if let timer = timer {
+            RunLoop.current.add(timer, forMode: .common)
+        }
     }
     @objc private func timerInvoke() {
         automaticScroll()
